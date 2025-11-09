@@ -1,0 +1,117 @@
+$flaticon_meat_shop-font: "flaticon_meat_shop";
+
+@font-face {
+    font-family: $flaticon_meat_shop-font;
+    src: url("./flaticon_meat_shop.ttf?ae33996e3a697ce982209ab57128a9dc") format("truetype"),
+url("./flaticon_meat_shop.woff?ae33996e3a697ce982209ab57128a9dc") format("woff"),
+url("./flaticon_meat_shop.woff2?ae33996e3a697ce982209ab57128a9dc") format("woff2"),
+url("./flaticon_meat_shop.eot?ae33996e3a697ce982209ab57128a9dc#iefix") format("embedded-opentype"),
+url("./flaticon_meat_shop.svg?ae33996e3a697ce982209ab57128a9dc#flaticon_meat_shop") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_meat_shop !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_meat_shop-map: (
+    "gift-1": "\f101",
+    "online-shop": "\f102",
+    "quotation": "\f103",
+    "next": "\f104",
+    "shopping-basket": "\f105",
+    "search": "\f106",
+    "avatar": "\f107",
+    "account": "\f108",
+    "meat": "\f109",
+    "meat-1": "\f10a",
+    "food": "\f10b",
+    "hamburguer": "\f10c",
+    "chicken": "\f10d",
+    "chicken-1": "\f10e",
+    "turkey-leg": "\f10f",
+    "chicken-wings": "\f110",
+    "right-arrow": "\f111",
+    "heart": "\f112",
+    "meat-2": "\f113",
+    "call": "\f114",
+    "email": "\f115",
+    "location": "\f116",
+    "location-1": "\f117",
+);
+
+.flaticon-gift-1:before {
+    content: map-get($flaticon_meat_shop-map, "gift-1");
+}
+.flaticon-online-shop:before {
+    content: map-get($flaticon_meat_shop-map, "online-shop");
+}
+.flaticon-quotation:before {
+    content: map-get($flaticon_meat_shop-map, "quotation");
+}
+.flaticon-next:before {
+    content: map-get($flaticon_meat_shop-map, "next");
+}
+.flaticon-shopping-basket:before {
+    content: map-get($flaticon_meat_shop-map, "shopping-basket");
+}
+.flaticon-search:before {
+    content: map-get($flaticon_meat_shop-map, "search");
+}
+.flaticon-avatar:before {
+    content: map-get($flaticon_meat_shop-map, "avatar");
+}
+.flaticon-account:before {
+    content: map-get($flaticon_meat_shop-map, "account");
+}
+.flaticon-meat:before {
+    content: map-get($flaticon_meat_shop-map, "meat");
+}
+.flaticon-meat-1:before {
+    content: map-get($flaticon_meat_shop-map, "meat-1");
+}
+.flaticon-food:before {
+    content: map-get($flaticon_meat_shop-map, "food");
+}
+.flaticon-hamburguer:before {
+    content: map-get($flaticon_meat_shop-map, "hamburguer");
+}
+.flaticon-chicken:before {
+    content: map-get($flaticon_meat_shop-map, "chicken");
+}
+.flaticon-chicken-1:before {
+    content: map-get($flaticon_meat_shop-map, "chicken-1");
+}
+.flaticon-turkey-leg:before {
+    content: map-get($flaticon_meat_shop-map, "turkey-leg");
+}
+.flaticon-chicken-wings:before {
+    content: map-get($flaticon_meat_shop-map, "chicken-wings");
+}
+.flaticon-right-arrow:before {
+    content: map-get($flaticon_meat_shop-map, "right-arrow");
+}
+.flaticon-heart:before {
+    content: map-get($flaticon_meat_shop-map, "heart");
+}
+.flaticon-meat-2:before {
+    content: map-get($flaticon_meat_shop-map, "meat-2");
+}
+.flaticon-call:before {
+    content: map-get($flaticon_meat_shop-map, "call");
+}
+.flaticon-email:before {
+    content: map-get($flaticon_meat_shop-map, "email");
+}
+.flaticon-location:before {
+    content: map-get($flaticon_meat_shop-map, "location");
+}
+.flaticon-location-1:before {
+    content: map-get($flaticon_meat_shop-map, "location-1");
+}
